@@ -1,15 +1,16 @@
 ---
-layout: single
-title:  "10 ways to game CyberPatriot"
+layout: post
+title:  "10 Essential Steps to Win CyberPatriot"
 date:   2026-10-02
 categories: CyberPatriot
 ---
 
-How to cram for CyberPatriot images (sorry cisco mains)
+CyberPatriot is one of those competitions in which the time you put in is what you get out. As with anything else, there's ways to use your time better, and ways to use it worse. Here, I try to document what's worked best for me.
 
 ---
 
-CyberPatriot is one of those competitions in which the time you put in is what you get out. However, if you're in the situation where you need to cram, certain preparation and game strategies definitely pay off more than others. Here, I try to document what's worked best for me.
+### **PREFACE**
+This is not a be-all end-all list. Nor does it apply in every case. But there's typically not many cases worth deviating from it, and its uncommon to hear conflicting advice from other top teams.
 
 #### 1. **BASELINE BASELINE BASELINE**  
 
@@ -25,6 +26,8 @@ Once you create a practice test, you'll start seeing a lot of the gaps between a
 So what's the only thing they release after a round ends? The vulnerability categories, which reveal that they design the image around them. They follow a similar distribution each time (quite a few in user auditing, application security, etc.). Hence, try to structure your game plan around them, and if you notice one category is lacking mid-competition, then there might be a lot of points to gain there.
 
 #### 3. **RUN THROUGH YOUR CHECKLIST**
+
+First off, if you don't have a checklist, just call it wraps. It's not worth risking forgetting something, no matter how good you think your memory is. Not only does it track your knowledge, it also grounds you to a structured process during the stress of the competition, and keeps your results consistent.
 
 Hopefully, you have a list of vulnerabilities that you've seen before. You want a somewhat structured process to run through them to ensure that you don't miss any of them and forget some "low-hanging fruit". At the end of the day, repetition is king, and trying your checklist on a few different images will ensure you know how it could go wrong and what to do if it does.
 
@@ -56,4 +59,8 @@ If you got a vuln and then lost it, but the scoring report doesn't show anything
 
 Snapshots are your best friend. They let you make checkpoints and confidently try potentially system-breaking changes. If you're not confident (e.g., you don't want to restart your image because of settings that might apply on boot), snapshot, apply, and go from there.
 
-#### I'm working on the rest, but these should be the most important ones before the Linux Team Assignment. I really, REALLY emphasize 1-5. Good luck!
+#### 10. **PRACTICE WITH YOUR TEAM**
+
+Grind sessions get boring, and its easy to lose motivation to continue working. Thats why working with your teammates, even if you're learning completely separate topics, is so crucial. Despite the efficiency loss and ease of getting distracted, these types of sessions are what keep you consistent and excited for what you'll accomplish together.
+
+#### **CONCLUSION**
